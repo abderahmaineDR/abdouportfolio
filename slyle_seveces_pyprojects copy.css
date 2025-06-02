@@ -1,0 +1,144 @@
+body{
+    background-color:  rgb(251 191 36 / .05);
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: white;
+    padding: 0.1px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav{
+    text-align: end;
+    padding-right: 20px;
+    order: 1;
+    margin-left: auto;
+}
+h1{
+    color: #f59e0b;
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.navi{
+
+    display:inline-block;
+    margin: 20px;
+}
+.navi, #nav{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    order: 0;
+    padding-top: 20px;
+    margin-right: auto;
+    color: #f59e0b;
+}
+#cio{
+    color: #f59e0b;
+}
+h5,h4,h1,p{
+    color: #000;
+    text-align: justify;
+    margin: 15px;
+}
+h4{
+  padding-left: 12px;
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+#part2{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#part2 h5{
+    color: #f59e0b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#img2{
+    width: 45%;
+    height: 450px;
+    border-radius: 50px;
+    margin: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#pp1{
+    font-size: large;
+    text-align: justify;
+    padding-bottom: 12px;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+#footer {
+    padding: 50px;
+    background-color: #f59e0b;
+    color: white;
+    font-size: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+ }
+ #left, #centre, #right {
+    width: 45%;
+    padding: 10px;
+ }
+ #tel{
+    list-style-image: url(stowns/tel.ico);
+ }
+ #email{
+    list-style-image: url(stowns/email.ico);
+ }
+ #fb{
+    list-style-image: url(stowns/fb.ico);
+ }
+ #position{
+    list-style-image: url(stowns/position.ico);
+ }
+h4{
+    margin: 0px;
+    padding: 0px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+#third{
+    background-color: #f59e0b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    padding-top: 40px;
+}   
